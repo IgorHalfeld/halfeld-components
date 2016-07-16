@@ -2,6 +2,7 @@
   "name": "vue-component-menu",
   "description": "Simple, response and beautiful Vue menu component",
   "author": "Halfeld <igorelmerico@hotmail.com>",
+  "version": "0.1.1",
   "scripts": {
     "dev": "webpack-dev-server --inline --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
