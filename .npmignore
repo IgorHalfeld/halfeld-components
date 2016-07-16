@@ -1,0 +1,8 @@
+dist/
+node_modules
+src/App.vue
+src/main.js
+.babelrc
+.gitignore
+.index.html
+webpack.config.js
