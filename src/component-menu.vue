@@ -79,90 +79,63 @@ export default {
 }
 </script>
 
-<style lang="sass" >
-
-// Class to add
+<style>
 .wapper.show .canvas {
-  transform: translate3d(16rem,0,0);
-}
+  transform: translate3d(16rem, 0, 0); }
 
-// Menu effects
 .rotate {
   transition: .3s ease all;
-  transform-origin: 0% 0%;
-}
-.rotateDown {
-  transform: rotate(33deg);
-}
-.rotateUp {
-  transform: rotate(-33deg);
-}
-.fade {
-  opacity: 0;
-}
+  transform-origin: 0% 0%; }
 
-// Wapper that will do the translateX
+.rotateDown {
+  transform: rotate(33deg); }
+
+.rotateUp {
+  transform: rotate(-33deg); }
+
+.fade {
+  opacity: 0; }
+
 .wapper {
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: 100vh;
-
-  > .canvas {
+  height: 100vh; }
+  .wapper > .canvas {
     width: 100%;
     height: 100%;
     position: relative;
     transform: translateX(0);
     transition: .3s ease all;
-    backface-visibility: hidden;
-  }
-}
+    backface-visibility: hidden; }
 
-// Menu
 .menu {
   position: absolute;
   width: 16rem;
   height: 100%;
-  transform: translate3d(-16rem,0,0);
-
-  // Button
-  > .toggle-menu {
+  transform: translate3d(-16rem, 0, 0); }
+  .menu > .toggle-menu {
     position: absolute;
     top: 0.8rem;
     left: 16.5rem;
     width: 4rem;
     stroke: #c3c3c3;
-    cursor: pointer;
-  }
-
-
-  > .nav {
-
-
-    > h2 {
-      padding: 2rem;
+    cursor: pointer; }
+  .menu > .nav > h2 {
+    padding: 2rem;
+    color: #c3c3c3;
+    text-align: center; }
+  .menu > .nav > ul {
+    list-style: none;
+    padding: 0; }
+    .menu > .nav > ul > a {
       color: #c3c3c3;
-      text-align: center;
-    }
+      text-decoration: none; }
+      .menu > .nav > ul > a > li {
+        padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+        color: inherit;
+        transition: .1s linear all;
+        position: relative;
+        font-size: 1.1rem; }
 
-    > ul {
-      list-style: none;
-      padding: 0;
-
-      > a {
-        color: #c3c3c3;
-        text-decoration: none;
-
-        > li {
-          padding: 1.5rem 1.5rem 1.5rem 1.5rem;
-          color: inherit;
-          transition: .1s linear all;
-          position: relative;
-          font-size: 1.1rem;
-        }
-      }
-
-    }
-  }
-}
 </style>
