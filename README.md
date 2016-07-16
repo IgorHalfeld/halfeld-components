@@ -3,6 +3,8 @@ Vue Component Menu
 
 > Simple, response and beautiful Vue menu component
 
+[DEMO](https://halfeld.github.io/vue-component-menu/)
+
 Install
 -------
 
