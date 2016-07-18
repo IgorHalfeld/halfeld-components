@@ -5,7 +5,7 @@
         <h2 :style="{ color: colorSecondary }">{{label}}</h2>
         <ul>
           <a v-for="item in items" href="{{item.link}}" :style="{ color: colorSecondary }">
-            <li @mouseover="change(colorPrimary, colorSecondary, $event)" @mouseout="changeBack(colorPrimary, colorSecondary, $event)">{{item.name}}</li>
+            <li @mouseover="change(colorPrimary, colorSecondary, $event)" @mouseout="changeBack(colorSecondary, $event)">{{item.name}}</li>
           </a>
         </ul>
       </nav>
@@ -71,9 +71,9 @@ export default {
       target.style.color = colorPrimary;
       target.style.backgroundColor = colorSecondary;
     },
-    changeBack(colorPrimary, colorSecondary, {target}) {
+    changeBack(colorSecondary, {target}) {
       target.style.color = colorSecondary;
-      target.style.backgroundColor = colorPrimary;
+      target.style.backgroundColor = 'transparent';
     }
   },
 }
