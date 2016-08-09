@@ -3,8 +3,9 @@
   "description": "Simple, response and beautiful Vue menu component",
   "author": "Halfeld <igorelmerico@hotmail.com>",
   "readmeFileName": "README.md",
-  "jsnext:main": "src/component-menu.vue",
-  "version": "0.1.4",
+  "main": "./src/component-menu.vue",
+  "jsnext:main": "./src/component-menu.vue",
+  "version": "0.1.5",
   "scripts": {
     "dev": "webpack-dev-server --inline --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"

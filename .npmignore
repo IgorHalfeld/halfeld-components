@@ -4,5 +4,5 @@ src/App.vue
 src/main.js
 .babelrc
 .gitignore
-.index.html
+index.html
 webpack.config.js
