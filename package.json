@@ -5,7 +5,7 @@
   "readmeFileName": "README.md",
   "main": "./src/component-menu.vue",
   "jsnext:main": "./src/component-menu.vue",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "scripts": {
     "dev": "webpack-dev-server --inline --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"

@@ -5,13 +5,10 @@
       <div class="canvas">
         <component-menu
           label="MENU"
-          color-primary="tomato"
-          color-secondary="#fff"
-          color-shadow="#ff3c1a"
           :items="links"></component-menu>
         <header class="content">
           <h1>Vue menu component</h1>
-          <p>This is a test!</p>
+          <a href="https://github.com/Halfeld/vue-component-menu">View o Github</a>
         </header>
       </div>
     </div>
@@ -37,7 +34,7 @@ export default {
 }
 </script>
 
-<style lang="sass">
+<style>
 * {
   margin: 0;
   padding: 0;
@@ -48,5 +45,17 @@ export default {
   width: 100%;
   height: 100%;
   padding: 5rem;
+}
+
+.content > h1 {
+  color: #777;
+  margin-bottom: 5px;
+}
+
+.content > a {
+  text-decoration: none;
+}
+.content > a:hover {
+  text-decoration: underline;
 }
 </style>
