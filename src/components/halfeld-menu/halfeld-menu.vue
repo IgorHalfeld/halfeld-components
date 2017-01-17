@@ -50,7 +50,7 @@ export default {
     },
     shadowColor: {
       type: String,
-      default: '#444'
+      default: '#333'
     },
     label: {
       type: String,

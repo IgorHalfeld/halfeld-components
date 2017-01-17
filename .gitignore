@@ -1,8 +1,4 @@
 .DS_Store
 node_modules/
-dist/
 npm-debug.log
-<<<<<<< HEAD
-=======
 npm-*
->>>>>>> new-version
