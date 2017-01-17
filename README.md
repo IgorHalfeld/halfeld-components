@@ -1,6 +1,6 @@
 <p align="center">
   <h3 align="center">Halfeld Components</h3>
-  <p align="center">Some Vue.js components.</p>
+  <p align="center">Vue.js components.</p>
 
   <p align="center">
     <a href="http://standardjs.com/">
@@ -60,9 +60,9 @@ export default {
   data () {
     return {
       items: [
-        { name: 'Home', '/home' },
-        { name: 'About', '/about' },
-        { name: 'Contact', '/contact' }
+        { name: 'Home', link: '/home' },
+        { name: 'About', link: '/about' },
+        { name: 'Contact', link: '/contact' }
       ]
     }
   }
