@@ -69,6 +69,11 @@ export default {
 }
 ```
 
+### TO-DO
+
++ Slider
++ Modal
+
 ### Version 0.1.*
 
 ```bash
