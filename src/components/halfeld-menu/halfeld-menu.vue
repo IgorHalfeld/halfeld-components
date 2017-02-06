@@ -10,7 +10,7 @@
           <nav class="nav">
             <h2 :style="{ color: secondaryColor }">{{ label }}</h2>
             <ul>
-              <a v-for="item in items" :href="item.link" :style="{ color: secondaryColor }">
+              <a @click="toggle()" v-for="item in items" :href="item.link" :style="{ color: secondaryColor }">
                 <li
                   @mouseover="change(primaryColor, secondaryColor, $event)"
                   @mouseout="changeBack(secondaryColor, $event)">{{ item.name }}</li>

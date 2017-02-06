@@ -1,7 +1,7 @@
 {
   "name": "halfeld-components",
   "description": "Some Vue.js components",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "author": "Igor Luíz <igor@devstacks.com.br>",
   "readmeFileName": "README.md",
   "main": "./src/index.js",
