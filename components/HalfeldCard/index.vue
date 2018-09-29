@@ -100,7 +100,7 @@ export default {
     font-size: 60px;
     color: #f4f4f4;
     bottom: 0px;
-    padding-left: 10px;
+    padding-left: 20px;
     padding-bottom: 10px;
     text-shadow: 0px 0px 1px #444;
 
@@ -126,6 +126,6 @@ export default {
   position: relative;
   width: 100%;
   height: auto;
-  padding: 10px;
+  padding: 20px;
 }
 </style>

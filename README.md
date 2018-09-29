@@ -52,27 +52,17 @@ npm install halfeld-components --save-dev
 ```
 
 ```javascript
-import { HalfeldMenu, HalfeldCard } from 'halfeld-components'
+import Vue from 'vue'
+import HalfeldComponents from 'halfeld-components'
 
-export default {
-  name: 'App',
-  components: { HalfeldMenu, HalfeldCard },
-  data () {
-    return {
-      items: [
-        { name: 'Home', link: '/home' },
-        { name: 'About', link: '/about' },
-        { name: 'Contact', link: '/contact' }
-      ]
-    }
-  }
-}
+Vue.use(HalfeldComponents)
 ```
 
 ### TO-DO
 
-+ Slider
-+ Modal
++ [x] Loading
++ [ ] Slider
++ [ ] Modal
 
 ### Version 0.1.*
 
@@ -87,8 +77,8 @@ npm install vue-component-menu --save-dev
 npm install
 
 # serve with hot reload at localhost:8080
-npm run dev
+vue serve
 
 # build for production with minification
-npm run build
+vue build
 ```
